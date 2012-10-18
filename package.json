@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CubixCraft/node-bukkit-stat"
+    "url": "https://github.com/CubixCraft/node-bukkit-stats"
   },
   "keywords": [
     "bukkit",
