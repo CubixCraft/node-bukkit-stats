@@ -1,6 +1,6 @@
 {
   "name": "bukkit-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets a server's stats displayed in the client serverlist",
   "main": "index.js",
   "scripts": {
