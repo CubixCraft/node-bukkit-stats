@@ -1,6 +1,6 @@
 {
   "name": "bukkit-stats",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Gets a server's stats displayed in the client serverlist",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,9 @@
     "api"
   ],
   "author": "Jan Buschtöns <buschtoens@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+	"colors": "*",
+	"sanitize-arguments": "*"
+  }
 }
