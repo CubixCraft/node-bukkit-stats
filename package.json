@@ -1,24 +1,17 @@
 {
   "name": "bukkit-stats",
-  "version": "1.1.0",
   "description": "Gets a server's stats displayed in the client serverlist",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CubixCraft/node-bukkit-stats"
-  },
-  "keywords": [
-    "bukkit",
-    "minecraft",
-    "api"
-  ],
+  "version": "1.1.0",
   "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "contributors": [ 
+    { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" },
+  ],
   "license": "MIT",
-  "dependencies": {
-	"colors": "*",
-	"sanitize-arguments": "*"
-  }
+  "keywords": ["bukkit", "minecraft", "api"],
+  "repository": "git://github.com/CubixCraft/node-bukkit-stats",
+  "main": "index",
+  "engines": { "node": "*" },
+  "devDependencies": { "mocha": "*", "should": "*" },
+  "dependencies": { "colors": "*", "sanitize-arguments": "*" },
+  "scripts": { "prepublish": "npm prune", "test": "make test" }
 }
