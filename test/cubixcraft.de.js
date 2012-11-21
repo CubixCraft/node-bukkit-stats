@@ -1,5 +1,5 @@
 // Require the lib
-var sanitize = require("../");
+var stats = require("../");
 
 // Tests
 describe("stats('cubixcraft.de')", function() {
